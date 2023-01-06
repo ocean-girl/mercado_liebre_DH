@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5% auto;
+    max-width: 100%;
+}
+
+.form input{
+    margin: 10%;
+    border-radius: 4px;
+
+}
+
+.input{
+    height: 50px;
+    box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.75);
+}
+
+.register label{
+    margin: 1%;
+    color: #9e9d9d;
+}
+
+div .profile {
+    padding-top: 1%;
+    height: 1%;
+}
+
+.intereses {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+    
+.button {
+    margin: 2px 5px;
+    border: none;
+    margin: 3%;
+    height:30px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 1%;
+    border: 1px solid blue;
+}
+    
+
+
+@media (min-width: 768px){
+    .form {
+        width: 60%;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        margin: 2px 5px;
+        width: 30%;
+    }
+    
+}
+
+@media (min-width: 1200px){
+    
+    
+    .button{
+        transition: all 350ms;
+    }
+    
+    .button:hover {
+        color:blue ;
+        background-color:#fff ;
+        box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+
+    }
+}
