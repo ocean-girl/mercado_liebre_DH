@@ -20,7 +20,9 @@ p{
 div.top-header{
     display: flex;
     flex-wrap: wrap;
-    padding: 5%;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
 }
 
 header div.top-header p{
@@ -31,6 +33,7 @@ header div.top-header p{
 
 header{
     background-color: #EAC926;
+    
 }
 
 header div.logo,
@@ -50,6 +53,7 @@ header .form{
 header nav{
     font-size: 12px;
     margin-left: 20px;
+    
 }
 
 header ul li{
@@ -67,6 +71,12 @@ header .form .input{
     outline: none;
     color: #666;
     padding: 2px;
+    height: auto;
+}
+
+.form {
+    display: inline-flexbox;
+    
 }
 
 header .form .submit{
@@ -74,6 +84,7 @@ header .form .submit{
     border: 1px solid #000;
     color: #666;
     width: 10%;
+    
 }
 
 div.burger-menu{
@@ -294,13 +305,13 @@ footer .findepagina p {
 
     .top-navbar {
         display: flex;
-        justify-content: space-between;;
+        justify-content: space-between;
     }
 
     .top-navbar ul{
         display: flex;
         align-items: center;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
 
     }
     .top-navbar li {
